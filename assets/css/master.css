@@ -32,14 +32,19 @@ body
   border: 1px solid black;
 }
 
+.col-100
+{
+  width: 100%;
+}
+
 .menu
 {
-  height: 100px;
+  height: 80px;;
   border: 1px solid green;
   font-weight: 300;
 }
 
-nav > img
+.logo > img
 {
   width: 180px;
 }
@@ -47,7 +52,7 @@ nav > img
 ul
 {
   list-style: none;
-  line-height: 100px;
+  line-height: 80px;
 }
 
 li
@@ -60,4 +65,36 @@ a:hover, a:visited, a:link, a:active
 {
   text-decoration: none;
   color: #878888;
+}
+
+.jumbo
+{
+  height: 420px;
+  background: url('../img/banner.jpg');
+  background-position: center;
+  background-size: cover;
+  padding-top: 240px;
+  padding-left: 50px;
+}
+
+.overlay
+{
+  background: #000;
+  opacity: 0.5;
+}
+
+.description
+{
+  color: white;
+  width: 60%;
+}
+
+.description > h2
+{
+  font-weight: 300;
+}
+
+.description
+{
+  font-weight: 200;
 }

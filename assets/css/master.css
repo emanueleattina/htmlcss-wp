@@ -98,14 +98,18 @@ a:hover, a:visited, a:link, a:active
   background: url('../img/banner.jpg');
   background-position: center;
   background-size: cover;
+}
+
+.pad
+{
   padding-top: 240px;
   padding-left: 50px;
 }
 
 .overlay
 {
-  background: #000;
-  opacity: 0.5;
+  background: rgba(0, 0, 0, 0.19);
+  height: 100%;
 }
 
 .description
@@ -156,7 +160,7 @@ a:hover, a:visited, a:link, a:active
   background-size: cover;
 }
 
-.jumbo, .bg-left, .bg-center, .bg-right
+.jumbo, .bg-left, .bg-center, .bg-right, .overlay
 {
   border-radius: 15px;
 }
@@ -180,9 +184,16 @@ a:hover, a:visited, a:link, a:active
 footer
 {
   text-align: center;
+  font-weight: 200;
 }
 
 .cuore
 {
   color: red;
 }
+
+/* .jumbo > .overlay
+{
+  padding-top: -240px;
+  padding-left: -50px;
+} */

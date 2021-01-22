@@ -1,0 +1,63 @@
+/* regola base per i margini e bordi */
+
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* -------------------- */
+
+/* regola per il float */
+
+.row::after
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* -------------------- */
+
+body
+{
+  font-family: 'Poppins', sans-serif;
+}
+
+.container
+{
+  width: 80%;
+  margin: auto;
+  border: 1px solid black;
+}
+
+.menu
+{
+  height: 100px;
+  border: 1px solid green;
+  font-weight: 300;
+}
+
+nav > img
+{
+  width: 180px;
+}
+
+ul
+{
+  list-style: none;
+  line-height: 100px;
+}
+
+li
+{
+  display: inline;
+  margin-right: 10px;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+  text-decoration: none;
+  color: #878888;
+}
